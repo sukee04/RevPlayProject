@@ -1,0 +1,81 @@
+2026-01-27 20:52:46 ERROR com.example.RevPlay.DAO.UserDAO - User already exists (Email or ID)
+java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '101' for key 'users.PRIMARY'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:109)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:988)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1166)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1101)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1448)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1084)
+	at com.example.RevPlay.DAO.UserDAO.addUser(UserDAO.java:27)
+	at com.example.RevPlay.ExecutionClass.App.main(App.java:51)
+2026-01-27 20:54:09 ERROR com.example.RevPlay.DAO.UserDAO - User already exists (Email or ID)
+2026-01-27 21:01:14 INFO  com.example.RevPlay.DAO.UserDAO - Artist login successful
+2026-01-28 09:17:38 INFO  com.example.RevPlay.DAO.UserDAO - User login successful
+2026-01-28 09:17:38 INFO  com.example.RevPlay.DAO.UserDAO - User login successful
+2026-01-28 10:37:03 INFO  com.example.RevPlay.DAO.UserDAO - User login successful
+2026-01-28 10:37:03 INFO  com.example.RevPlay.DAO.UserDAO - User login successful
+2026-01-28 11:04:54 INFO  com.example.RevPlay.DAO.UserDAO - User login successful
+2026-01-28 11:04:54 INFO  com.example.RevPlay.DAO.UserDAO - User login successful
+2026-01-28 11:18:25 INFO  com.example.RevPlay.DAO.UserDAO - User login successful
+2026-01-28 11:18:25 INFO  com.example.RevPlay.DAO.UserDAO - User login successful
+2026-01-28 18:08:32 INFO  com.example.RevPlay.DAO.UserDAO - User login successful
+2026-01-28 18:08:32 INFO  com.example.RevPlay.DAO.UserDAO - User login successful
+2026-01-28 18:20:47 INFO  com.example.RevPlay.DAO.UserDAO - User login successful
+2026-01-28 18:20:47 INFO  com.example.RevPlay.DAO.UserDAO - User login successful
+2026-01-28 18:30:50 INFO  com.example.RevPlay.DAO.UserDAO - User login successful
+2026-01-28 18:30:50 INFO  com.example.RevPlay.DAO.UserDAO - User login successful
+2026-01-28 18:31:31 WARN  com.example.RevPlay.DAO.SongDAO - Song 501 already in favorites for user 101
+2026-01-28 18:31:43 WARN  com.example.RevPlay.DAO.SongDAO - Song 501 already in favorites for user 101
+2026-01-28 18:37:23 INFO  com.example.RevPlay.DAO.UserDAO - Artist login successful
+2026-01-28 18:42:07 WARN  com.example.RevPlay.DAO.UserDAO - Wrong creditionals
+2026-01-28 18:42:51 INFO  com.example.RevPlay.DAO.UserDAO - User login successful
+2026-01-28 18:42:51 INFO  com.example.RevPlay.DAO.UserDAO - User login successful
+2026-01-28 18:43:41 INFO  com.example.RevPlay.DAO.UserDAO - User registered successfully: sriram@gmail.com
+2026-01-28 18:44:02 INFO  com.example.RevPlay.DAO.UserDAO - User login successful
+2026-01-28 18:44:02 INFO  com.example.RevPlay.DAO.UserDAO - User login successful
+2026-01-28 18:44:14 INFO  com.example.RevPlay.DAO.SongDAO - Song 502 added to favorites by user 105
+2026-01-28 19:41:54 WARN  com.example.RevPlay.DAO.UserDAO - Wrong creditionals
+2026-01-28 19:42:53 WARN  com.example.RevPlay.DAO.UserDAO - Wrong creditionals
+2026-01-28 19:43:21 WARN  com.example.RevPlay.DAO.UserDAO - Wrong creditionals
+2026-01-28 19:50:00 WARN  com.example.RevPlay.DAO.UserDAO - Wrong credentials
+2026-01-28 19:58:30 WARN  com.example.RevPlay.DAO.UserDAO - Wrong credentials
+2026-01-28 20:06:37 WARN  com.example.RevPlay.DAO.UserDAO - Wrong credentials
+2026-01-28 20:29:47 INFO  com.example.RevPlay.DAO.UserDAO - User registered successfully: ms@gmail.com
+2026-01-28 20:30:04 INFO  com.example.RevPlay.DAO.UserDAO - User login successful
+2026-01-28 20:31:30 INFO  com.example.RevPlay.DAO.UserDAO - User registered successfully: srikanth@gmail.com
+2026-01-28 20:32:14 INFO  com.example.RevPlay.DAO.ArtistDAO - Registration successful
+2026-01-28 20:32:39 INFO  com.example.RevPlay.DAO.ArtistDAO - Artist login successful
+2026-01-28 20:35:36 INFO  com.example.RevPlay.DAO.UserDAO - User login successful
+2026-01-29 18:50:28 INFO  com.example.RevPlay.DAO.ArtistDAO - Artist login successful
+2026-01-29 19:02:15 INFO  com.example.RevPlay.DAO.ArtistDAO - Artist login successful
+2026-01-29 19:05:47 INFO  com.example.RevPlay.DAO.ArtistDAO - Artist login successful
+2026-01-29 19:08:21 INFO  com.example.RevPlay.DAO.ArtistDAO - Registration successful
+2026-01-29 19:08:52 INFO  com.example.RevPlay.DAO.ArtistDAO - Artist login successful
+2026-01-29 19:13:25 INFO  com.example.RevPlay.DAO.ArtistDAO - Registration successful
+2026-01-29 19:14:17 INFO  com.example.RevPlay.DAO.ArtistDAO - Artist login successful
+2026-01-29 20:27:27 INFO  com.example.RevPlay.DAO.ArtistDAO - Artist login successful
+2026-01-29 20:30:55 INFO  com.example.RevPlay.DAO.ArtistDAO - Artist login successful
+2026-01-29 20:36:34 INFO  com.example.RevPlay.DAO.ArtistDAO - Artist login successful
+2026-01-29 20:42:26 INFO  com.example.RevPlay.DAO.ArtistDAO - Artist login successful
+2026-01-29 20:43:09 INFO  com.example.RevPlay.DAO.SongDAO - Song Uploaded Successfully
+2026-01-29 20:43:50 INFO  com.example.RevPlay.DAO.ArtistDAO - Artist login successful
+2026-01-29 20:44:12 INFO  com.example.RevPlay.DAO.UserDAO - User login successful
+2026-01-29 20:45:03 INFO  com.example.RevPlay.DAO.PlaylistDAO - Song Added Successfully into your PlayList
+2026-01-29 20:45:21 INFO  com.example.RevPlay.DAO.SongDAO - Song 2001 added to favorites by user 101
+2026-01-29 20:45:53 INFO  com.example.RevPlay.DAO.ArtistDAO - Artist login successful
+2026-01-29 20:53:50 INFO  com.example.RevPlay.DAO.UserDAO - User registered successfully: sriram@gmail.com
+2026-01-29 20:54:07 INFO  com.example.RevPlay.DAO.UserDAO - User login successful
+2026-01-29 20:54:28 INFO  com.example.RevPlay.DAO.SongDAO - Song 2001 added to favorites by user 103
+2026-01-29 21:05:36 INFO  com.example.RevPlay.DAO.ArtistDAO - Registration successful
+2026-01-29 21:06:04 INFO  com.example.RevPlay.DAO.ArtistDAO - Artist login successful
+2026-01-29 21:08:30 INFO  com.example.RevPlay.DAO.SongDAO - Song Uploaded Successfully
+2026-01-29 21:09:33 INFO  com.example.RevPlay.DAO.SongDAO - Song Uploaded Successfully
+2026-01-29 21:10:13 INFO  com.example.RevPlay.DAO.SongDAO - Song Uploaded Successfully
+2026-01-29 21:10:45 INFO  com.example.RevPlay.DAO.UserDAO - User login successful
+2026-01-29 21:11:43 INFO  com.example.RevPlay.DAO.PlaylistDAO - Song Added Successfully into your PlayList
+2026-01-29 21:12:27 INFO  com.example.RevPlay.DAO.SongDAO - Song 2002 added to favorites by user 103
+2026-01-29 21:12:50 INFO  com.example.RevPlay.DAO.ArtistDAO - Artist login successful
+2026-01-29 21:13:36 INFO  com.example.RevPlay.DAO.UserDAO - User login successful
+2026-01-29 21:14:23 INFO  com.example.RevPlay.DAO.UserDAO - Password changed successfully for sriram@gmail.com
+2026-01-29 21:14:45 INFO  com.example.RevPlay.DAO.UserDAO - User login successful
