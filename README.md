@@ -33,6 +33,56 @@ The project follows a **layered architecture** with clear separation of concerns
 - Console-based menu navigation
 - Logging using **Log4j2**
 
+## 🧱 Project Architecture
+
+The project follows a **layered structure**:
+---
+com.example.RevPlay
+│
+├── config → Database connection & configuration
+├── model → Entity classes (User, Artist, Song, Album, Playlist, etc.)
+├── dao → Database access layer (JDBC)
+├── service → Business logic layer
+├── ui → Console-based user interface
+└── main → Application entry point
+
+
 ---
 
+## 🗄️ Database Design
+
+The project uses **MySQL** with proper relational design and foreign key constraints.
+
+### Main Tables:
+- `users`
+- `artists`
+- `albums`
+- `songs`
+- `playlists`
+- `favorites`
+
+### Relationships:
+- Artist → Albums → Songs
+- Users → Playlists
+- Users ↔ Songs (Favorites – Many-to-Many)
+
+---
+
+## 🛠️ Technologies Used
+
+- **Java (JDK 21)**
+- **JDBC**
+- **MySQL**
+- **Maven**
+- **Log4j2**
+- **IntelliJ IDEA / Eclipse**
+- **Git & GitHub**
+
+---
+
+## 📂 Project Setup
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/sukee04/RevPlayProject.git
 
